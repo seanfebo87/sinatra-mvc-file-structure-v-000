@@ -7,4 +7,8 @@ class Dog
     @age = age 
     @@all << self
   end
+  
+  self.all
+    @@all
+  end
 end
